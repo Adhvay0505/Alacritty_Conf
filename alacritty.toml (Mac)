@@ -1,0 +1,52 @@
+# Alacritty Configuration — Gruvbox Colors with Black Background
+# This is for MacOS
+
+[window]
+dimensions = { columns = 100, lines = 25 }
+decorations = "Full"        # enables top bar
+opacity = 0.7
+blur = true
+padding = { x = 6, y = 6 }
+dynamic_padding = false
+startup_mode = "Windowed"
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
+size = 12.0
+
+# Gruvbox colors on black background
+[colors.primary]
+background = "0x000000"
+foreground = "0xd4be98"
+
+[colors.normal]
+black   = "0x000000"
+red     = "0xea6962"
+green   = "0xa9b665"
+yellow  = "0xd8a657"
+blue    = "0x7daea3"
+magenta = "0xd3869b"
+cyan    = "0x89b482"
+white   = "0xd4be98"
+
+[colors.bright]
+black   = "0x7c6f64"
+red     = "0xea6962"
+green   = "0xa9b665"
+yellow  = "0xd8a657"
+blue    = "0x7daea3"
+magenta = "0xd3869b"
+cyan    = "0x89b482"
+white   = "0xdfbf8e"
+
+[cursor.style]
+shape = "Block"
+blinking = "Off"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
